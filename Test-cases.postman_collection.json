@@ -760,7 +760,14 @@
 					]
 				},
 				"method": "DELETE",
-				"header": [],
+				"header": [
+				    {
+					"key": "Content-Type",
+					"value": "application/json"
+			            }
+
+					
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n\t\"message\": \"New comment\",\n\t\"owner\": \"{{userId}}\",\n\t\"post\": \"{{PostId}}\"\n}",
