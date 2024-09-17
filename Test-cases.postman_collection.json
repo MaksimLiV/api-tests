@@ -763,7 +763,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"message\": \"New comment\",\r\n\"owner\": \"663553cc7e1cc7ebc46d9f62\",\r\n\"post\": \"6636476ab72aea2948ea8f41\"\r\n}",
+					"raw": "{\n\t\"message\": \"New comment\",\n\t\"owner\": \"{{userId}}\",\n\t\"post\": \"{{PostId}}\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
